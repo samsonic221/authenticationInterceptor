@@ -19,10 +19,10 @@ j_token = json.dumps(j_token)
 val = validate_token(j_token)
 
 
-# output if token is authentic
+#output if token is authentic
 Signature verification successful	
 
-# output if token is not authentic
+#output if token is not authentic
 Signature verification failed
 
 #data stored in val
