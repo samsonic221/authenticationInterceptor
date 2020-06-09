@@ -14,8 +14,8 @@ def read_public_key():
     )
      
     # These define the bucket and object to read
-    bucketname = 'publickey111'
-    file_to_read = 'jwt-key.pub'
+    bucketname = os.getenv('bucketname')          #'publickey111'
+    file_to_read = os.getenv('file_to_read')      #'jwt-key.pub'
 
     #Create a file object using the bucket and object key. 
     fileobj = s3client.get_object(
