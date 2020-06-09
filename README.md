@@ -30,3 +30,10 @@ Signature verification failed
 
 ## data stored in val
 print(val)
+
+
+## NOTE:
+create environment variables for bucket name and file name in your system as follows:
+* variable name = bucketname
+* variable name = file_to_read
+Strictly stick to the above given names.
