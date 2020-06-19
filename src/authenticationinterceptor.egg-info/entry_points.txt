@@ -1,0 +1,3 @@
+[console_scripts]
+authenticationinterceptor = authenticationinterceptor.authenticationInterceptor:validate_token
+

@@ -1,0 +1,88 @@
+Metadata-Version: 1.2
+Name: authenticationinterceptor
+Version: 0.0.1
+Summary: jwt token verification
+Home-page: https://github.com/samsonic221/python-authenticationinterceptor
+Author: samsonic
+Author-email: sharmadhonor6@gmail.com
+License: UNKNOWN
+Project-URL: Documentation, https://python-authenticationinterceptor.readthedocs.io/
+Project-URL: Changelog, https://python-authenticationinterceptor.readthedocs.io/en/latest/changelog.html
+Project-URL: Issue Tracker, https://github.com/samsonic221/python-authenticationinterceptor/issues
+Description: ========
+        Overview
+        ========
+        
+        
+        
+        jwt token verification
+        
+        Installation
+        ============
+        
+        ::
+        
+            pip install authenticationinterceptor
+        
+        You can also install the in-development version with::
+        
+            pip install https://github.com/samsonic221/python-authenticationinterceptor/archive/master.zip
+        
+        
+        Documentation
+        =============
+        
+        
+        https://python-authenticationinterceptor.readthedocs.io/
+        
+        
+        Development
+        ===========
+        
+        To run the all tests run::
+        
+            tox
+        
+        Note, to combine the coverage data from all the tox environments run:
+        
+        .. list-table::
+            :widths: 10 90
+            :stub-columns: 1
+        
+            - - Windows
+              - ::
+        
+                    set PYTEST_ADDOPTS=--cov-append
+                    tox
+        
+            - - Other
+              - ::
+        
+                    PYTEST_ADDOPTS=--cov-append tox
+        
+        
+        Changelog
+        =========
+        
+        0.0.1 (2020-06-19)
+        ------------------
+        
+        * First release on PyPI.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Utilities
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*

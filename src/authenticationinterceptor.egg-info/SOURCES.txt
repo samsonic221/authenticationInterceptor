@@ -1,0 +1,16 @@
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+src/authenticationinterceptor/__init__.py
+src/authenticationinterceptor/__main__.py
+src/authenticationinterceptor/_version.py
+src/authenticationinterceptor/authenticationInterceptor.py
+src/authenticationinterceptor/cli.py
+src/authenticationinterceptor.egg-info/PKG-INFO
+src/authenticationinterceptor.egg-info/SOURCES.txt
+src/authenticationinterceptor.egg-info/dependency_links.txt
+src/authenticationinterceptor.egg-info/entry_points.txt
+src/authenticationinterceptor.egg-info/not-zip-safe
+src/authenticationinterceptor.egg-info/top_level.txt
+src/authenticationinterceptor/tests/__init__.py
